@@ -5,8 +5,8 @@ function App() {
       <div>
         <h2>Счетчик:</h2>
         <h1>0</h1>
-        <button></button>
-        <button></button>
+        <button>plus</button>
+        <button>minus</button>
       </div>
     </div>
   );
