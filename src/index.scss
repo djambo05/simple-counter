@@ -13,4 +13,18 @@ body {
   justify-content: center;
   height: 100vh;
   text-align: center;
+
+  h1 {
+    color: #000;
+    font-size: 6rem;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  &.plus {
+    color: #2a9d8f;
+  }
+
+  &.minus {
+    color: #ea071d
+  }
 }
