@@ -7,4 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
