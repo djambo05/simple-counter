@@ -13,8 +13,12 @@ function App() {
       <div>
         <h2>Счетчик:</h2>
         <h1>0</h1>
-        <button className="plus">plus</button>
-        <button className="minus">minus</button>
+        <button onClick={handleCountPlus} className="plus">
+          plus
+        </button>
+        <button onClick={handleCountMinus} className="minus">
+          minus
+        </button>
       </div>
     </div>
   );
