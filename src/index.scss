@@ -13,6 +13,10 @@ body {
   justify-content: center;
   height: 100vh;
   text-align: center;
+  
+  div {
+    width: 300px;
+  }
 
   h1 {
     color: #000;
@@ -40,7 +44,8 @@ body {
     text-align: center;
     font-size: 22px;
     border-radius: 15px;
-    padding: 10 25px;
+    padding: 10px 25px;
+    width: 130px;
     cursor: pointer;
     margin: 0 10px;
     transition: all 0.05s ease-in-out;
@@ -60,11 +65,12 @@ body {
     }
 
     &:hover {
-      transform: translate(-2px);
+      transform: translateY(-2px);
     }
 
     &:active {
-      transform: translate(2px);
+      transform: translateY(2px);
+      box-shadow: none;
     }
   }
 }
