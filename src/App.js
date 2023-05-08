@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div>
         <h2>Счетчик:</h2>
-        <h1>0</h1>
+        <h1>{count}</h1>
         <button onClick={handleCountPlus} className="plus">
           plus
         </button>
